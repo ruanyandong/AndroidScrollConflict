@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-------------------------------------------------------------------"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BadViewPager嵌套Button或者可点击的TextView滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BadViewPager嵌套ListView滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用外部拦截法解决BadViewPager嵌套ListView滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用内部拦截法解决BadViewPager嵌套ListView滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-------------------------------------------------------------------"/>
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScrollView嵌套ListView滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用内部拦截法解决ScrollView嵌套ListView滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用外部拦截法解决ScrollView嵌套ListView滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-------------------------------------------------------------------"/>
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用内部拦截法解决ViewPager嵌套ScrollView再嵌套ViewPager滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用内部拦截法解决ViewPager嵌套ViewPager滑动冲突"
+        android:textAllCaps="false"
+        android:onClick="click"/>
+</LinearLayout>
